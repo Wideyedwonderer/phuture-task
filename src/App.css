@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+@media screen and (max-width:500px) {
+  .App {
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-top: 15px;
+  }
 }
 
 .App-logo {

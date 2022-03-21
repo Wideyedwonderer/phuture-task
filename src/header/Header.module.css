@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logoText {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 32px;
+width: 153px;
+
+border-radius: 10px;
+
+}
+
+.button {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+}
+.button:hover {
+    cursor: pointer;
+  }
